@@ -1,0 +1,87 @@
+{
+     "title_home":"Home", 
+     "title_about": "About the studio",
+     "title_projects": "Projects", 
+     "title_cost": "Cost",
+     "title_contacts": "Contacts",
+  
+    "modal_title": "We will help you bring your project to life - from the first recording to wide distribution",
+    "form_title":"Fill out the form, we will contact you and advise you!",
+    "form_name":"Your name",
+    "modal_btn":"book a studio",
+    "agreement": "By clicking the button, you consent to the processing of personal data and agree to the privacy policy",
+
+     "subtitle": "Real art is created here, turning every idea into an amazing whirlwind of sound stories",
+     "btn_reservation": "book a studio",
+     "btn_know": "find out the cost",
+     "btn_studio": "learn more about the studio",
+     "text_about_studio": "Zero Studio is a world-famous professional recording studio offering a wide range of services for musicians and artists",
+     
+    "advantages_title_1":"Individual approach", "advantages_text_1":"We approach each client individually, taking into account his musical preferences, style and genre",
+    "advantages_title_2":"Modern equipment", "advantages_text_2":"We use only the most modern equipment for recording, mixing and mastering sound",
+    "advantages_title_3":"Experience and professionalism", "advantages_text_3":"Zero Studio has more than 5 years of experience in sound recording, during which time we have collaborated with many musicians and artists, helping them bring their ideas to life",
+    "advantages_title_4":"Development of the musical community", "advantages_text_4":"Zero Studio actively supports young musicians and artists, providing them with the opportunity to record their tracks and participate in musical projects",
+   
+
+    "projects_title":"projects",
+    "projects_subtitle":"Works of artists in our studio",
+    "projects_text": "We have several famous artists and musicians who have chosen our studio to record their music",
+    "projects_btn":"load more",
+
+
+
+         "price_title":"cost",
+         "price_subtitle_one":"Individual services",
+         "price_text":"We offer high quality services to all clients, regardless of the size of the project",
+             "price_services_title_1": "Vocal recording","price_services_money_1":"1,000 ₽ / hour",
+             "price_services_title_2": "Recording instruments","price_services_money_2":"1,000 ₽ / hour",
+             "price_services_title_3": "Mixing","price_services_money_3":"from 3,000 ₽",
+             "price_services_title_4": "Mastering","price_services_money_4":"from 3,000 ₽",
+             "price_services_title_5": "Arrangement","price_services_money_5":"from 5,000 ₽",
+
+         "price_subtitle_two":"Service packages",
+
+             "price_packages_title_1":"Package for beginning performers", "price_packages_text_1":"Recording vocals, instruments, mixing and mastering vocals with minus, vocal editing, recording a song with minus (economy), remix, cover, production of minus phonogram, arrangement, basic lessons on sound recording and working with software", "price_packages_money_1":"10,000 ₽ / hour",
+             "price_packages_title_2":"Basic package", "price_packages_text_2":"Recording vocals, instruments, mixing and mastering vocals with minus, editing vocals, recording songs with minus (economy)",  "price_packages_money_2":"10,000 ₽ / hour" ,
+             "price_packages_title_3":"Standard package", "price_packages_text_3":"Recording vocals, instruments, mixing and mastering of vocals with a minus track, editing vocals, recording a song with a minus track (standard), remix, cover, production of a minus track, arrangement, mixing and mastering", "price_packages_money_3":"12,500 ₽ / hour",
+            "price_packages_title_4":"Premium package", "price_packages_text_4":"Recording of vocals, instruments, mixing and mastering of vocals with a minus track, editing vocals, recording a song with a minus track (premium), remix, cover, production of a minus track, arrangement, mixing and mastering, additional services (for example, soundproofing a room, teaching the basics of sound recording)", "price_packages_money_4":"15,000 ₽ / hour",
+             "price_packages_title_5":"Package for professionals", "price_packages_text_5":"Recording of vocals, instruments, mixing and mastering of vocals with a minus, vocal editing, recording of a song with a minus (premium), remix, cover, production of a minus track, arrangement, mixing and mastering, individual lessons with a sound engineer, consultations on the choice of equipment and software", "price_packages_money_5":"20,000 ₽ / hour",
+ 
+
+        "faq_title":"Frequently asked questions",
+
+             "faq_questions_title_1": "How many days in advance do you need to book a studio?", "faq_questions_text_1":"It is advisable to book a studio in advance, about a week in advance. This is necessary so that we can choose a convenient free time for you at the studio , and also discuss in advance all the nuances of the upcoming recording. If you need an urgent recording, just call us and we will find the optimal solution.",
+           "faq_questions_title_2":"How much does it cost to record a song with processing?", "faq_questions_text_2":"The cost of recording and processing a song may vary depending on factors",
+            "faq_questions_title_3":"How is recording going?", "faq_questions_text_3":"Recording in a recording studio takes place in several stages: preparation, editing, mixing, mastering",
+            "faq_questions_title_4":"Do you write music (arrangements, lyrics)?", "faq_questions_text_4":"Yes, our recording studio offers music writing, arrangement and lyrics services.",
+             "faq_questions_title_5":"Can you shoot a video clip for my song?", "faq_questions_text_5":"Yes, our recording studio offers services for filming and editing video clips for musical works.",
+
+
+        "studio_title_main":"about the studio",
+        "studio_subtitle_main":"Mission",
+        "studio_text_main": "Our mission is to help musicians and authors translate their ideas into sound format. We work on each track individually, taking into account the creative concept and performance style.",
+        "studio_title_one":"HIGH-CLASS TEAM OF PROFESSIONALS",
+        "studio_subtitle_one":"Team",
+        "studio_text_one": "At the heart of Zero Studio is our team. We are proud to have brought together the most experienced specialists in this field.",
+        "studio_title_two":"QUALITY AND SPEED",
+        "studio_subtitle_two":"Professionalism",
+        "studio_text_two": "We understand how important speed is in today's world. However, speed does not mean compromising quality for us. Optimized workflows and the professionalism of our team allow us to provide high-quality audio materials in the shortest possible time.",
+
+
+        "contacts_title":"contacts",
+        "contacts_subtitle": "Real art is created here, turning every idea into an amazing whirlwind of sound stories",
+        "contacts_btn":"book a studio",
+        "contacts_tag_1":"Studio",
+        "contacts_tag_2": "Mail",
+        "contacts_tag_3": "Social networks",
+        "contacts_adresses":"Novosibirsk, Lenin st., 1",
+
+
+        "feedback_title":"DO YOU WANT TO RECORD A FEW SONGS OR A FULL ALBUM?",
+        "feedback_subtitle":"Leave your details and we will provide you with a special price!",
+        "feedback_btn":"discuss project",
+    
+        "footer_form_title":"Stay up to date with the latest news!",
+        "footer_form_email":"Enter your email",
+        "footer_btn": "stay informed"
+}
