@@ -1,22 +1,35 @@
 import React from "react";
+import { useLocation } from "react-router-dom";
 import {Routes, Route} from "react-router-dom";
+
+import { Scrollbars } from 'rc-scrollbars';
 import HomePage from "../../pages/HomePage/HomePage";
+import ContactPage from "../../pages/ContactPage/ContactPage";
 import Layout from "../layout/layout";
+import AboutPage from "../../pages/AboutPage/AboutPage";
 
 function App() {
 
+  const { pathname } = useLocation();
+
   React.useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-  
+    const scrollbarsElement = document.querySelector(".rc-scrollbars-view");
+    if (scrollbarsElement) {
+      scrollbarsElement.scrollTop = 0;
+    }
+  }, [pathname]);
   return (
     <>
-     <Routes>
-        <Route path="/" element={<Layout />}>
-        <Route index element={<HomePage />} />
-        </Route>
-      </Routes>
-      </>
+    <Scrollbars style={{ height: "100vh" }}>
+      <Routes>
+          <Route path="/" element={<Layout />}>
+          <Route index element={<HomePage />} />
+          <Route path="contact" element={<ContactPage />} />
+          <Route path="about" element={<AboutPage />} />
+          </Route>
+        </Routes>
+    </Scrollbars>
+    </>
   );
 }
 

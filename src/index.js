@@ -1,14 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import {BrowserRouter} from 'react-router-dom';
-import './styles/index.css';
-import App from './components/app/app'
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import { MantineProvider } from "@mantine/core";
+import App from "./components/app/app";
+import reportWebVitals from "./reportWebVitals";
+import "@mantine/core/styles.css";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import "./styles/index.css";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
-    <App />
+    <MantineProvider>
+      <App/>
+    </MantineProvider>
   </BrowserRouter>
 );
 

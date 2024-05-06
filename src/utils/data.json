@@ -1,0 +1,19 @@
+{
+    "team":[
+        {"id":1, "name":"Артём Ковалёв", "profession":"Администратор студии", "photo":"https://i.ibb.co/Y0gczqr/Image-360.png"},
+        {"id":2, "name":"Сергей Троцкий", "profession":"Звукорежиссёр", "photo":"https://i.ibb.co/znGqbQr/Image-361.png"},
+        {"id":3, "name":"Мария Волкова", "profession":"Продюсер", "photo":"https://i.ibb.co/BT7NNFD/Image-362.png"},
+        {"id":4, "name":"Дмитрий Фёдоров", "profession":"Композитор", "photo":"https://i.ibb.co/0tKTBLp/3.png"},
+        {"id":5, "name":"Алексей Кузнецов", "profession":"Автор текстов", "photo":"https://i.ibb.co/JK3GCjb/Image-365.png"}
+    ],
+    "projects":[
+        {"id":1, "title":"Пара тысяч сосен", "author":"3.56 am", "cover":"https://images.genius.com/4dc1f112eeab272ea7a9d56d4c3583cd.1000x1000x1.jpg"},
+        {"id":2, "title":"Запретить", "author":"SLAVA MARLOW", "cover":""},
+        {"id":3, "title":"Таю", "author":"Мы", "cover":"https://images.genius.com/a7943f3b14a462e003f3dce3ea1e0a00.1000x1000x1.jpg"},
+        {"id":4, "title":"Мерцай", "author":"Опия", "cover":"https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/48/ca/5e/48ca5e3a-7657-df64-24bb-58e33762e135/cover.jpg/600x600bf-60.jpg"},
+        {"id":5, "title":"Перезаряжай", "author":"Три дня дождя", "cover":"https://images.genius.com/bf50acf435350d7bff4355b5ae8ced7a.1000x1000x1.png"},
+        {"id":6, "title":"Люби меня люби ", "author":"Гречка", "cover":"https://i.scdn.co/image/ab67616d0000b273a180bbdd1ed20ae593bf4515"},
+        {"id":7, "title":"Колхозник", "author":"Mnogoznaal", "cover":"https://images.genius.com/a0f185cf77b1440d14c0807029945cec.1000x1000x1.png"},
+        {"id":8, "title":"Angry toy$ ", "author":"Boulevard Depo", "cover":"https://images.genius.com/677a07a4ad0cc7e937c5eb54a5f34d22.905x905x1.jpg"}
+    ]
+}

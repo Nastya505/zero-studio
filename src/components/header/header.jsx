@@ -6,6 +6,7 @@ import i18n from '../../i18n';
 
 import styles from "./header.module.css"
 import logo from "../../image/logo.svg"
+import Navbar from '../navbar/navbar';
 
 const Header = () => {
     const {t} = useTranslation();
@@ -26,19 +27,15 @@ const Header = () => {
 
     console.log(activeLanguage)
   return (
-    <div className={styles.header}>
-        <img src={logo} alt='logo'/>
-        <div className={styles.btns}>
-            <button className={`${styles.btn} ${activeLanguage === "ru" ? styles.active : ""}`} onClick={ changeToRussian}>ru</button>
-            <button className={`${styles.btn} ${activeLanguage === "en" ? styles.active : ""}`}  onClick={ changeToEnglish}>en</button>
+    <div className="container">
+        <div className={styles.header}>
+            <img src={logo} alt='logo'/>
+            <div className={styles.btns}>
+                <button className={`${styles.btn} ${activeLanguage === "ru" ? styles.active : ""}`} onClick={ changeToRussian}>ru</button>
+                <button className={`${styles.btn} ${activeLanguage === "en" ? styles.active : ""}`}  onClick={ changeToEnglish}>en</button>
+            </div>
+            <Navbar/>
         </div>
-        <div className={styles.nav}>
-            <div>{t("title_home")}</div>
-            <div>{t("title_about")}</div>
-            <div>{t("title_projects")}</div>
-            <div>{t("title_cost")}</div>
-        </div>
-        <div>{t("title_contacts")}</div>
     </div>
   )
 }
