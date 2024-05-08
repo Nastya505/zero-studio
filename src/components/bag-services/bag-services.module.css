@@ -1,0 +1,135 @@
+.wrapper {
+    display: flex;
+    gap: 50px;
+    align-items: start;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(81, 37, 219, 1)  #121212  ;
+    cursor: grab;
+    padding-bottom: 50px;
+    margin-bottom: 150px;
+    
+}
+.shadow{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -20px;
+    width: 330px;
+    height: 450px;
+    background: radial-gradient(50% 50% at 50% 50%, #5125DB 0%, rgba(81, 37, 219, 0) 100%);
+
+}
+
+.wrapper::-webkit-scrollbar {
+    width: 8px;
+}
+
+.wrapper::-webkit-scrollbar-track {
+    border-radius: 8px;
+}
+
+.wrapper::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #888888;
+}
+.wrapperItem{
+    position: relative;
+}
+.item{
+    min-width: 330px;
+    min-height: 450px;
+    display: flex;
+    background: none;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding-left: 20px;
+    border-left:  1px solid rgba(255, 255, 255, 0.25);
+    z-index: 3;
+}
+
+.title{
+    font-family: var(--ff);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.2px;
+    text-align: left;
+    margin-bottom: 20px;
+
+} 
+.text{
+    font-family: var(--ff);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.number{
+    display: flex;
+    justify-content: start;
+    align-items: left;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.number span{
+    font-family: var(--ff);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.25);
+
+}
+.new{
+    font-family: var(--ff);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    padding: 0 10px;
+    color: #fff;
+    border-radius: 5px;
+    background: rgba(81, 37, 219, 1);
+
+
+}
+.price{
+    font-family: var(--ff);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    text-align: left;
+    
+}
+.btn{
+    border: 1px solid #fff;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.active{
+    border-color: rgba(81, 37, 219, 1); 
+    background: rgba(81, 37, 219, 1);
+}
+img{
+    transition: all .3s;
+}
+.active img{
+    transform: rotate(45deg);
+}
+
+.bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

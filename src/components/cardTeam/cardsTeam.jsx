@@ -3,6 +3,7 @@ import data from "../../utils/data.json"
 import CardTeam from './cardTeam';
 
 import styles from "./cardTeam.module.css"
+
 const CardsTeam = () => {
     const [team, setTeam] = React.useState([]);
 

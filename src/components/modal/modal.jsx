@@ -29,8 +29,8 @@ function ModalComponent({ opened, close }) {
             </div>
             <div className={styles.right}>
             <div className={styles.fromTitle}>{t("form_title")}</div>
-                <Input name={t("form_name")}/>
-                <Input name="+7 (___) __-__-__"/>
+                <Input name={t("form_name")} textAling="left"/>
+                <Input name="+7 (___) __-__-__" textAling="left"/>
                 <Button
                 click={()=>console.log("sudmit")}
                  text={t("modal_btn")}

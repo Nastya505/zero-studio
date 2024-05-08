@@ -17,7 +17,7 @@ const Footer = () => {
         <div className={styles.wrapper}>
           <div className={styles.form}>
             <div>{t("footer_form_title")}</div>
-            <Input name={t("footer_form_email")} />
+            <Input name={t("footer_form_email")} textAling="left" />
             <Button
               click={() => alert("Вы успешно подписались на рассылку")}
               text={t("footer_btn")}

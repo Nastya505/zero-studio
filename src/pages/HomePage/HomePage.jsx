@@ -9,6 +9,10 @@ import styles from "./HomePage.module.css";
 import ModalComponent from "../../components/modal/modal";
 import { useDisclosure } from '@mantine/hooks';
 import Feedback from "../../components/feedback/feedback";
+import Advantages from "../../components/advantages/advantages";
+import Projects from "../../components/projects/projects";
+import Cost from "../../components/cost/cost";
+import Faq from "../../components/faq/faq";
 
 
 const HomePage = () => {
@@ -46,7 +50,10 @@ const HomePage = () => {
           <img className={styles.photo} src={photo} />
         </div>
       </div>
-      <div></div>
+      <Advantages/>
+      <Projects/>
+      <Cost/>
+      <Faq/>
 
       <Feedback/>
     </>

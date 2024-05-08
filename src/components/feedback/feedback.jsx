@@ -18,8 +18,8 @@ const Feedback = () => {
                 <div className={styles.title}>{t("feedback_title")}</div>
                 <div className={styles.subtitle}>{t("feedback_subtitle")}</div>
                 <div className={styles.wrapperInputs}>
-                    <Input name={t("form_name")}/>
-                    <Input name="+7 (___) __-__-__"/>
+                    <Input name={t("form_name")} textAling="center"/>
+                    <Input name="+7 (___) __-__-__" textAling="center"/>
                 </div>
                 <Button
                 click={() => alert("Мы получили ваши данные. Скоро свяжемся с вами))")}

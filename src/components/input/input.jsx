@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import styles from "./input.module.css"
 
-function Input({name}) {
+function Input({name, textAling}) {
   const [inputValue, setInputValue] = useState('');
 
   const handleInputChange = (e) => {
@@ -11,6 +11,7 @@ function Input({name}) {
 
   return (
     <input
+      style={{textAlign: textAling}}
       className={styles.input}
       type='text'
       value={inputValue}

@@ -5,7 +5,7 @@
     width: 100%;
     overflow-x: auto;
     scrollbar-width: thin;
-    scrollbar-color: #121212 var(--clr-bg);
+    scrollbar-color: rgba(81, 37, 219, 1)  #121212  ;
     cursor: grab;
     padding-bottom: 50px;
 }
