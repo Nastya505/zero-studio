@@ -4,7 +4,7 @@ function MyMap() {
   const blackAndWhiteSrc = "https://yandex.ru/map-widget/v1/?um=constructor%3Af26eaf1831592f444e3050a3e20983fa12c313ddd965e77bfd5a540b1d31c655&amp;source=constructor&mode=gray";
 
   return (
-    <div style={{ position: 'relative', width: '100%', paddingBottom: '56.25%', marginBottom:"150px" }}>
+    <div style={{ position: 'relative', width: '100%', paddingBottom: '56.25%' }}>
       <iframe
         style={{
           position: 'absolute',

@@ -1,0 +1,14 @@
+.burger{
+    display: none;
+}
+
+.link{
+    text-decoration: none;
+    color: #000;
+}
+
+@media (max-width: 930px){
+    .burger{
+        display: block;
+    }
+}

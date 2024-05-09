@@ -14,9 +14,9 @@ function ModalComponent({ opened, close }) {
       <Modal
       size="auto"
         styles={{
-            content: { background: "black", border:"1px solid white", position:"relative", borderRadius:"30px", padding:"80px" },
+            content: { background: "black", border:"1px solid white", position:"relative", borderRadius:"30px", padding:"10px" },
             header: { background: "black" },
-            close: { color: "white", background:"none", position:"absolute", top:"-40px", right:"-40px" },
+            close: { color: "white", background:"none", position:"absolute", top:"0", right:"0" },
         }}
         opened={opened}
         onClose={close}

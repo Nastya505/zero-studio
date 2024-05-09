@@ -16,6 +16,8 @@
     padding: 20px 0;
 }
 .btn{
+  margin: 13px 0;
+
     border: 2px solid #fff;
     background: none;
     border-radius: 50%;
@@ -79,4 +81,31 @@
 
 .open {
   max-height: 500px;
+}
+
+
+@media (max-width:980px){
+   .number{
+    display: none;
+   }
+   .content{
+    max-width: 500px;
+   }
+   .title{
+    font-size: 16px;
+   }
+   .text{
+    font-size: 14px;
+   }
+}
+@media (max-width:575px){
+   .title{
+    font-size: 16px;
+   }
+   .text{
+    font-size: 14px;
+   }
+   .content{
+    max-width: 270px;
+   }
 }

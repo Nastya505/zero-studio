@@ -133,3 +133,9 @@ img{
     justify-content: space-between;
     align-items: center;
 }
+
+@media (max-width: 704px){
+    .wrapper{
+        margin-bottom: 100px;
+    }
+}

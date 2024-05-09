@@ -18,7 +18,7 @@ const CardMusic = ({ music, id, activeId, setActiveId }) => {
             </div>
       <div className={styles.info}>
         <button className={`${styles.btn} ${isActive ? styles.activeBtn : ""}`} onClick={handleClick}>
-            {isActive ? <img src={pause} /> : <img style={{marginLeft:"3px"}} src={play} /> }
+            {isActive ? <img src={pause} /> : <img style={{marginLeft:"3px", transition:"marginLeft .01s"}} src={play} /> }
         </button>
         <div className={styles.wrapper}>
             <span className={styles.title}>{music.title}</span>

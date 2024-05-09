@@ -33,3 +33,11 @@
 .link:hover {
   opacity: 1;
 }
+
+
+
+@media (max-width: 930px){
+  .wrapper{
+      display: none;
+  }
+}

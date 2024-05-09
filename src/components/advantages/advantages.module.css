@@ -17,6 +17,7 @@
 }
 .wrapper{
     padding-top: 150px;
+    width: 100%;
     display:flex;
     justify-content: center;
     align-items:center;
@@ -41,3 +42,17 @@
     margin-top: 80px;
     margin-bottom: 150px;
 }
+
+@media (max-width: 1050px){
+    .container{
+    width: min(100% - 30px, 1500px);    
+    }
+    .title{
+        font-size: 36px;
+        line-height: 39.6px;
+    }
+    .cards{
+        flex-direction: column;
+        gap: 20px;
+    }
+  }

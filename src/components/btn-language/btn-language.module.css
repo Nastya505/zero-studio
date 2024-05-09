@@ -1,0 +1,27 @@
+
+.btns{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+.btn{
+    border: none;
+    outline: none;
+    background: none;
+    color: #fff;
+    font-family: var(--ff);
+    font-weight: var(--fw);
+    font-size: var(--fs);
+    padding:3px 5px;
+    text-transform: capitalize;
+}
+.btn:hover{
+    background: #fff;
+    color: var(--clr-bg);
+    border-radius: 5px;
+}
+.active{
+    background: #fff;
+    color: var(--clr-bg);
+    border-radius: 5px;
+}

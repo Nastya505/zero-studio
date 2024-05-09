@@ -71,3 +71,52 @@
     height: 200px;
     background: linear-gradient(360deg, rgba(9, 1, 16, 0.5) 0%, rgba(81, 37, 219, 0) 100%);
 }
+
+
+@media (max-width: 1050px){
+    .container{
+    width: min(100% - 30px, 1500px);    
+    }
+    .title{
+        font-size: 36px;
+        line-height: 39.6px;
+        width: 650px;
+    }
+    .cards{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .logo{
+        width: 800px;
+    }
+    .feedback{
+        height: 1050px;
+    }
+  }
+
+
+@media (max-width: 817px){
+    .wrapper{
+        padding-top: 100px;
+    }
+
+ 
+    .logo{
+        width: 500px;
+    }
+    .feedback{
+        height: 890px;
+    }
+  }
+@media (max-width: 517px){
+    .title{
+        width: 100%;
+    }
+    .logo{
+        width: 250px;
+        margin-top: 50px;
+    }
+    .feedback{
+        height: 720px;
+    }
+  }

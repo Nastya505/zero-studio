@@ -11,6 +11,7 @@ import icon2 from "../../image/telegram.svg"
 import icon3 from "../../image/twitch.svg"
 
 import styles from "./ContactPage.module.css";
+import MainTitleInPage from "../../components/title-in-page/main-title-in-page";
 
 const ContactPage = () => {
   const { t } = useTranslation();
@@ -19,8 +20,7 @@ const ContactPage = () => {
   return (
     <div className="container">
       <ModalComponent opened={opened} close={close}/>
-      <div className={styles.title}>{t("contacts_title")}</div>
-      <hr style={{ border: "1px solid rgba(255, 255, 255, 0.1)" }} />
+      <MainTitleInPage title={t("contacts_title")}/>
       <div className={styles.wrapper}>
         <div className={styles.form}>
             <div>{t("contacts_subtitle")}</div>
