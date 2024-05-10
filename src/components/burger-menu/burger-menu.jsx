@@ -1,42 +1,41 @@
-import React from 'react'
-import { Menu } from '@mantine/core';
-import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
-import burgerMenu from "../../image/burger-menu.svg"
+import React from "react";
+import { Menu } from "@mantine/core";
+import { useTranslation } from "react-i18next";
+import burger from "../../image/burger-menu.svg"
 
-import styles from "./burger-menu.module.css"
-import BtnsLanguage from '../btn-language/btns-language';
+import styles from "./burger-menu.module.css";
 
 const BurgerMenu = () => {
-    const {t} = useTranslation();
+  const { t } = useTranslation();
+
 
   return (
     <div className={styles.burger}>
-        <Menu width={200} shadow="md">
+      <Menu width={200} shadow="lg">
         <Menu.Target>
-        <img src={burgerMenu} />
+        <img src={burger}/>
         </Menu.Target>
 
         <Menu.Dropdown>
-            <Menu.Item>
-                <Link className={styles.link} to="/">{t("title_home")}</Link> 
-            </Menu.Item>
-            <Menu.Item>
-            <Link className={styles.link} to="/about">{t("title_about")}</Link> 
-            </Menu.Item>
-            <Menu.Item>
-            <Link className={styles.link} to="/projects">{t("title_projects")}</Link> 
-            </Menu.Item>
-            <Menu.Item>
-            <Link className={styles.link} to="/cost">{t("title_cost")}</Link> 
-            </Menu.Item>
-            <Menu.Item>
-            <Link className={styles.link} to="/contact">{t("title_contacts")}</Link>
-            </Menu.Item>
+          <Menu.Item component="a" className={styles.link} href="/">
+            {t("title_home")}
+          </Menu.Item>
+          <Menu.Item component="a" className={styles.link} href="/about">
+            {t("title_about")}
+          </Menu.Item>
+          <Menu.Item component="a" className={styles.link} href="/projects">
+            {t("title_projects")}
+          </Menu.Item>
+          <Menu.Item component="a" className={styles.link} href="/cost">
+            {t("title_cost")}
+          </Menu.Item>
+          <Menu.Item component="a" className={styles.link} href="/contact">
+            {t("title_contacts")}
+          </Menu.Item>
         </Menu.Dropdown>
-    </Menu>
+      </Menu>
     </div>
-  )
-}
+  );
+};
 
-export default BurgerMenu
+export default BurgerMenu;
